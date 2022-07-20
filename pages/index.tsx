@@ -48,7 +48,7 @@ const Home: NextPage = () => {
             </div>
           </div>
 
-          <div className='cards mt-[74px] w-100 flex flex-col lg:flex-row gap-[19px]'>
+          <div className='cards mt-[74px] w-100 flex flex-col lg:flex-row gap-[19px] mb-[68px]'>
             <section className='leftSection'>
               <Card showTips={false}>
                 <>
@@ -105,7 +105,7 @@ const Home: NextPage = () => {
                 </>
               </Card>
             </section>
-            <section className='rightSection flex flex-col gap-[24px] mb-[68px]'>
+            <section className='rightSection flex flex-col gap-[24px]'>
               <Card showTips={true}>
                 <div className='grid grid-cols-3 gap-[8px] max-h-[438px] overflow-y-scroll pt-[24px]'>
                   <MinatureCards
