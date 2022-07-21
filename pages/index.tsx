@@ -68,7 +68,7 @@ const Home: NextPage = () => {
                       <a
                         href='#'
                         target='_blank'
-                        className='visited:text-[#FC364C]'
+                        className='hover:text-rose-600'
                       >
                         Lorem ipsum.com
                       </a>
@@ -78,7 +78,7 @@ const Home: NextPage = () => {
                       <a
                         href='#'
                         target='_blank'
-                        className='visited:text-[#FC364C]'
+                        className='hover:text-rose-600'
                       >
                         @Lorem ipsum
                       </a>
@@ -88,7 +88,7 @@ const Home: NextPage = () => {
                       <a
                         href='#'
                         target='_blank'
-                        className='visited:text-[#FC364C]'
+                        className='hover:text-rose-600'
                       >
                         @Lorem ipsum
                       </a>
@@ -98,7 +98,7 @@ const Home: NextPage = () => {
                       <a
                         href='#'
                         target='_blank'
-                        className='visited:text-[#FC364C]'
+                        className='hover:text-rose-600'
                       >
                         @Lorem ipsum
                       </a>
@@ -213,7 +213,7 @@ const Home: NextPage = () => {
                       <a
                         href='#'
                         target='_blank'
-                        className='visited:text-[#FC364C]'
+                        className='hover:text-rose-600'
                       >
                         Lorem ipsum.com
                       </a>
@@ -223,7 +223,7 @@ const Home: NextPage = () => {
                       <a
                         href='#'
                         target='_blank'
-                        className='visited:text-[#FC364C]'
+                        className='hover:text-rose-600'
                       >
                         @Lorem ipsum
                       </a>
@@ -233,7 +233,7 @@ const Home: NextPage = () => {
                       <a
                         href='#'
                         target='_blank'
-                        className='visited:text-[#FC364C]'
+                        className='hover:text-rose-600'
                       >
                         @Lorem ipsum
                       </a>
@@ -243,7 +243,7 @@ const Home: NextPage = () => {
                       <a
                         href='#'
                         target='_blank'
-                        className='visited:text-[#FC364C]'
+                        className='hover:text-rose-600'
                       >
                         @Lorem ipsum
                       </a>
