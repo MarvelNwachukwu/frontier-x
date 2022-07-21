@@ -29,7 +29,8 @@ const Home: NextPage = () => {
             Lorem ipsum
           </h3>
           <p>
-            Created by: <span className='text-[#FC364C] cursor-pointer'>Lorem ipsum</span>
+            Created by:{' '}
+            <span className='text-[#FC364C] cursor-pointer'>Lorem ipsum</span>
           </p>
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
 
