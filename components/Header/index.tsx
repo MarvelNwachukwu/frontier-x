@@ -6,9 +6,8 @@ export const Header =  () => {
     <header className='bg-[#0D0D0D] h-max min-h-[96px] flex gap-4 justify-between px-[1rem] md:px-[38px] items-center flex-wrap lg:flex-nowrap pb-4 lg:pb-0'>
       <div className={`bg-[url(/logo.svg)] h-16 w-screen lg:w-[200px] bg-[100%] bg-no-repeat bg-center flex`}></div>
 
-      <div className="invisible hidden lg:flex w-16 h-2 bg-white"></div>
-
-      <form action='#' className={`grow px-4 items-center max-w-[657px] ${showMenuContent ? 'hidden' : 'flex'}`}>
+      <form action='#' className={`grow px-4 items-center ${showMenuContent ? 'hidden' : 'flex'}`}>
+        <div className="invisible hidden min-w-[20%] lg:flex w-16 h-2 bg-white"></div>
         <button
           type='submit'
           className='bg-[url(/Vector.svg)] h-5 w-5 bg-no-repeat bg-center mr-[-2.5rem] z-10'
