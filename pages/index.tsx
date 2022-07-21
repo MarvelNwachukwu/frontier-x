@@ -3,6 +3,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Card } from '../components/Card';
 import { MinatureCards } from '../components/Card/minaturecards';
+import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 
 const Home: NextPage = () => {
@@ -253,13 +254,7 @@ const Home: NextPage = () => {
             </section>
           </div>
         </section>
-        <footer className='h-[205px] flex items-center justify-center'>
-          <img
-            src='/frontier_footer.svg'
-            alt=''
-            className='h-[23px] w-[195px]'
-          />
-        </footer>
+        <Footer />
       </body>
     </>
   );
