@@ -10,7 +10,7 @@ export const Card = ({ children, showTips }: props) => {
   return (
     <>
       <div
-        className={`w-[100vw] md:w-[591px] ${isOpen ? 'pb-[3rem]' : ''} bg-[#0d0d0d7f] p-4`}
+        className={`w-[100vw] md:w-[591px] p-[30px] bg-[#0d0d0d7f]`}
       >
         <div className='flex w-fill justify-between'>
           <div className='flex gap-1 items-center justify-center'>
@@ -29,7 +29,9 @@ export const Card = ({ children, showTips }: props) => {
             }}
           />
         </div>
-        {isOpen ? children : ''}
+        <div className={`mr-[19px]`}>
+          {isOpen ? children : ''}
+        </div>
       </div>
     </>
   );

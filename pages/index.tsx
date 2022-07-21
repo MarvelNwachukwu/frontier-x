@@ -9,7 +9,7 @@ const Home: NextPage = () => {
   return (
     <>
       <Head>
-        <title>Create Next App</title>
+        <title>Frontier-X</title>
         <link rel='icon' href='/favicon.ico' />
         <link rel='preconnect' href='https://fonts.googleapis.com'></link>
         <link rel='preconnect' href='https://fonts.gstatic.com'></link>
@@ -25,7 +25,7 @@ const Home: NextPage = () => {
           <div className="wide-image w-full h-[264px] rounded bg-[url('/frontierx-2.svg')] bg-cover bg-no-repeat" />
           <div className="h-36 w-36 bg-[url('/eyes.svg')] bg-cover bg-no-repeat mt-[-90px]" />
 
-          <h3 className='mb-[6px] text-5xl font-[800] mt-[30px]'>
+          <h3 className='mb-[6px] text-[45px] font-[800] mt-[30px]'>
             Lorem ipsum
           </h3>
           <p>
